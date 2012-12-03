@@ -8,12 +8,12 @@ namespace FizzBuzz
 {
     public class FizzBuzzKata : IFizzBuzzKata
     {
-        public string Answer(int theNumberInQuestion)
+        public string AreYouAFizzBuzzOrNot(int theNumberInQuestion)
         {
             var fizzBuzzAnswer = new StringBuilder();
 
-            fizzBuzzAnswer.Append(areYouAFizz(theNumberInQuestion));
-            fizzBuzzAnswer.Append(areYouABuzz(theNumberInQuestion));
+            fizzBuzzAnswer.Append(DeterminIfAFizzNeedsToBeAdded(theNumberInQuestion));
+            fizzBuzzAnswer.Append(DeterminIfABuzzNeedsToBeAdded(theNumberInQuestion));
 
             if(fizzBuzzAnswer.Length == 0)
             {
@@ -23,7 +23,7 @@ namespace FizzBuzz
             return fizzBuzzAnswer.ToString();
         }
 
-        private string areYouAFizz(int theNumberInQuestion)
+        private string DeterminIfAFizzNeedsToBeAdded(int theNumberInQuestion)
         {
             string stringToReturn = "";
 
@@ -35,7 +35,7 @@ namespace FizzBuzz
             return stringToReturn;
         }
 
-        private string areYouABuzz(int theNumberInQuestion)
+        private string DeterminIfABuzzNeedsToBeAdded(int theNumberInQuestion)
         {
             string stringToReturn = "";
 

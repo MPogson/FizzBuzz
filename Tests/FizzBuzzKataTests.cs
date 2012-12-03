@@ -21,10 +21,10 @@ namespace Tests
 
 
             //Act
-            answersList.Add(fizzBuzzKata.Answer(3));
-            answersList.Add(fizzBuzzKata.Answer(93));
-            answersList.Add(fizzBuzzKata.Answer(999));
-            answersList.Add(fizzBuzzKata.Answer(18));
+            answersList.Add(fizzBuzzKata.AreYouAFizzBuzzOrNot(3));
+            answersList.Add(fizzBuzzKata.AreYouAFizzBuzzOrNot(93));
+            answersList.Add(fizzBuzzKata.AreYouAFizzBuzzOrNot(999));
+            answersList.Add(fizzBuzzKata.AreYouAFizzBuzzOrNot(18));
 
             //Assert
             foreach (var answer in answersList)
@@ -45,10 +45,10 @@ namespace Tests
 
 
             //Act
-            answersList.Add(fizzBuzzKata.Answer(5));
-            answersList.Add(fizzBuzzKata.Answer(100));
-            answersList.Add(fizzBuzzKata.Answer(1135));
-            answersList.Add(fizzBuzzKata.Answer(5555));
+            answersList.Add(fizzBuzzKata.AreYouAFizzBuzzOrNot(5));
+            answersList.Add(fizzBuzzKata.AreYouAFizzBuzzOrNot(100));
+            answersList.Add(fizzBuzzKata.AreYouAFizzBuzzOrNot(1135));
+            answersList.Add(fizzBuzzKata.AreYouAFizzBuzzOrNot(5555));
 
             //Assert
             foreach (var answer in answersList)
@@ -69,10 +69,10 @@ namespace Tests
 
 
             //Act
-            answersList.Add(fizzBuzzKata.Answer(15));
-            answersList.Add(fizzBuzzKata.Answer(30));
-            answersList.Add(fizzBuzzKata.Answer(1500));
-            answersList.Add(fizzBuzzKata.Answer(5550));
+            answersList.Add(fizzBuzzKata.AreYouAFizzBuzzOrNot(15));
+            answersList.Add(fizzBuzzKata.AreYouAFizzBuzzOrNot(30));
+            answersList.Add(fizzBuzzKata.AreYouAFizzBuzzOrNot(1500));
+            answersList.Add(fizzBuzzKata.AreYouAFizzBuzzOrNot(5550));
 
             //Assert
             foreach (var answer in answersList)
@@ -95,10 +95,10 @@ namespace Tests
 
 
             //Act
-            answersList.Add(fizzBuzzKata.Answer(4));
-            answersList.Add(fizzBuzzKata.Answer(88));
-            answersList.Add(fizzBuzzKata.Answer(1357));
-            answersList.Add(fizzBuzzKata.Answer(125537));
+            answersList.Add(fizzBuzzKata.AreYouAFizzBuzzOrNot(4));
+            answersList.Add(fizzBuzzKata.AreYouAFizzBuzzOrNot(88));
+            answersList.Add(fizzBuzzKata.AreYouAFizzBuzzOrNot(1357));
+            answersList.Add(fizzBuzzKata.AreYouAFizzBuzzOrNot(125537));
 
             //Assert
             foreach (var answer in answersList)

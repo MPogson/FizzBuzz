@@ -7,6 +7,6 @@ namespace FizzBuzz
         /// </summary>
         /// <param name="number">current number in the game sequence</param>
         /// <returns>appropriate answer to the current number</returns>
-        string Answer(int number);
+        string AreYouAFizzBuzzOrNot(int number);
     }
 }
