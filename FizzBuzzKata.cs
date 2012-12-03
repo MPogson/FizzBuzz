@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace FizzBuzz
 {
-    public class Class1
+    public class FizzBuzzKata : IFizzBuzzKata
     {
+        public string Answer(int i)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

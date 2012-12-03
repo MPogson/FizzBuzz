@@ -3,10 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NUnit.Framework;
 
 namespace Tests
 {
-    public class Class1
+    [TestFixture]
+    public class FizzBuzzKataTests
     {
+        [Test]
+        public void ReturnsFizzWhenGivenANumberDivisbleBy3()
+        {
+            
+
+        }
+
     }
 }
