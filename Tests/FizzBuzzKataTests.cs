@@ -104,7 +104,7 @@ namespace Tests
             foreach (var answer in answersList)
             {
 
-                Assert.That(answer.Equals("Neither"));
+                Assert.That(answer.Equals("NEITHER"));
 
             }
          }
